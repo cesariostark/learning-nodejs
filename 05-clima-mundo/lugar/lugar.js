@@ -9,6 +9,9 @@ const getLugarLatLng = async(direccion, ciudad) => {
         headers: { 'X-RapidAPI-key': '22a0ea7d8bmsh5cc9776530e0f74p18ae9bjsna52a936b558a' }
     });
 
+    //API CLIMA
+    //https://dark-sky.p.rapidapi.com/-33.4372,-70.6506
+
 
     const resp = await instance.get()
 
